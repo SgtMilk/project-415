@@ -4,3 +4,4 @@ torchvision
 pandas
 matplotlib
 opencv-python
+albumentations
