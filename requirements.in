@@ -1,3 +1,6 @@
 numpy
 torch
 torchvision
+pandas
+matplotlib
+opencv-python

@@ -1,4 +1,4 @@
-#!/mnt/c/Users/Alix/Desktop/school/Semester_5/project-415/project/bin/python
+#!/home/alix/Desktop/school/semester_5/ECSE-415/project-415/project/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
