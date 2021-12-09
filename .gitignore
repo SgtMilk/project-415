@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 felix/trained_model_CARPK_x8_2_12.pt
+data/original
 
 # C extensions
 *.so
