@@ -4,8 +4,6 @@
 #
 #    pip-compile
 #
-albumentations==1.1.0
-    # via -r requirements.in
 cycler==0.11.0
     # via matplotlib
 fonttools==4.28.3
@@ -23,14 +21,11 @@ networkx==2.6.3
 numpy==1.21.4
     # via
     #   -r requirements.in
-    #   albumentations
     #   imageio
     #   matplotlib
     #   opencv-python
-    #   opencv-python-headless
     #   pandas
     #   pywavelets
-    #   qudida
     #   scikit-image
     #   scikit-learn
     #   scipy
@@ -38,10 +33,6 @@ numpy==1.21.4
     #   torchvision
 opencv-python==4.5.4.60
     # via -r requirements.in
-opencv-python-headless==4.5.4.60
-    # via
-    #   albumentations
-    #   qudida
 packaging==21.3
     # via
     #   matplotlib
@@ -67,17 +58,13 @@ pytz==2021.3
     # via pandas
 pywavelets==1.2.0
     # via scikit-image
-pyyaml==6.0
-    # via albumentations
-qudida==0.0.4
-    # via albumentations
 scikit-image==0.19.0
-    # via albumentations
+    # via -r requirements.in
 scikit-learn==1.0.1
-    # via qudida
+    # via -r requirements.in
 scipy==1.7.3
     # via
-    #   albumentations
+    #   -r requirements.in
     #   scikit-image
     #   scikit-learn
 setuptools-scm==6.3.2
@@ -97,9 +84,7 @@ torch==1.10.0
 torchvision==0.11.1
     # via -r requirements.in
 typing-extensions==4.0.0
-    # via
-    #   qudida
-    #   torch
+    # via torch
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools

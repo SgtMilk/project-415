@@ -4,4 +4,6 @@ torchvision
 pandas
 matplotlib
 opencv-python
-albumentations
+scikit-learn
+scipy
+scikit-image
