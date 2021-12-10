@@ -25,7 +25,6 @@ To add your own path, simply replace "path" to the desired directory you have.
 ```
 import detectron2
 from detectron2.utils.logger import setup_logger
-setup_logger()
 import numpy as np
 import os, json, cv2, random
 from google.colab.patches import cv2_imshow
