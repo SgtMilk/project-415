@@ -54,13 +54,17 @@ I used the internet to help me debug some issues I encountered. Here are all the
 * https://detectron2.readthedocs.io/en/latest/modules/model_zoo.html
 * https://github.com/facebookresearch/detectron2/issues/1277
 * https://github.com/facebookresearch/detectron2/issues/1962
-* https://towardsdatascience.com/non-maxima-suppression-139f7e00f0b5
-* https://www.dataquest.io/blog/understanding-regression-error-metrics/
-
-# RUNNING Q2.ipynb
+* https://towardsdatascience.com/non-maxima-suppression-139f7Place the training data in a subfolder named /data/original. This folder should directly contain the images given. The folder data should contain the csv for the test, train and valid set.
+Run all the Python code boxes for training the regressor and creating an output csv file with the testset results.
 The training pictures have to be in the `./data/TRANCOS` forder and the .csv files in the `./data` folder. We recommend running Q2 on a CUDA-enabled GPU, as it would take a long time on CPU.
 Running the code is simply done by pressing the `Run all` button while in the virtual environment and takes around an hour on a RTX 2060 super.
 
 # Run Instruction Q3_b.ipynb
-Place the training data in a subfolder named /data/original. This folder should directly contain the images given. The folder data should contain the csv for the test, train and valid set.
-Run all the Python code boxes for training the regressor and creating an output csv file with the testset results.
+The question uses the same data as Q2. Make sure the csv files are in the data folder. Run all the Python cells to train the regressor on the training set, validate it against the validation set and finally output a csv file for a kaggle submission. 
+
+## References
+I used the following references to develop this part of the question:
+* https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html
+* https://www.thepythoncode.com/article/hog-feature-extraction-in-python
+* https://scikit-image.org/docs/dev/auto_examples/features_detection/plot_hog.html
+* https://scikit-learn.org/stable/modules/svm.html#svm-regression
