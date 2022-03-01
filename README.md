@@ -1,5 +1,4 @@
-# Project-415 Vehicle Detection and Counting
-The github repo of the ECSE-415 project
+# Computer Vision Vehicle Detection and Counting
 
 ![Alt text](CPU_train.png?raw=true "CPU slavery")
 
